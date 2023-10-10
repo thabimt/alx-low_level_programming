@@ -7,19 +7,20 @@
 */
 int main(void)
 {
-char n = '0';
-char t = '0';
+int i;
 
-while (n <= '9')
+for (i = 0; i < 16; i++)
 {
-putchar(n);
-n++;
-}
-while (t <= 'f')
+if (i < 10)
 {
-putchar(t);
-t++;
+putchar('0' + i);
 }
+else
+{
+putchar('a' + (i - 10));
+}
+}
+
 putchar('\n');
 
 return (0);
