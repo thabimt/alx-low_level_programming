@@ -1,17 +1,18 @@
-#include< stdio.h>
+#include <stdio.h>
+#include "main.h"
 /**
-*main - I sometimes suffer from insomnia
-*Return: (0) success
+*print_alphabet - print alphabets
 *
 */
-int main(void)
+void print_alphabet(void)
 {
-charletter;
+	char al;
 
-for (letter= 'a'; letter <= 'z'; letter++)
-{
-_putchar(letter);
-}
-
-_putchar('\n');
+	al = 'a';
+	while (al <= 'z')
+	{
+		_putchar(al);
+		al++;
+	}
+	_putchar('\n');
 }
