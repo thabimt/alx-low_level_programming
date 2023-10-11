@@ -1,11 +1,14 @@
+#include <stdio.h>
 #include"main.h"
 /**
-*main - check the code
-*
-*Return: Alway s0.
-*/
-int main(void)
+ * times_table - prints the 9 times table, starting with 0
+ */
+void times_table(void)
 {
-times_table();
-return (0);
+	int i;
+
+	for (i = 0; i <= 10; i++)
+	{
+		printf("9 x %d = %d\n", i, 9 * i);
+	}
 }
