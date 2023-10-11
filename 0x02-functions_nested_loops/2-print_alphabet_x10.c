@@ -2,7 +2,7 @@
 /**
  * print_alphabets_x10 - prints alphabets x10
  *
- * Description: using _putchar to print
+ * description: use _putchar to print
  *
  */
 void print_alphabet_x10(void)
